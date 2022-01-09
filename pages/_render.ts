@@ -2,7 +2,7 @@
 
 import { virtualSheet } from "https://esm.sh/twind/sheets";
 import { setup } from "../deps.ts";
-import { RenderContext, RenderFn } from "../server_deps.ts";
+import { RenderContext, RenderFn } from "../deps_server.ts";
 
 const sheet = virtualSheet();
 sheet.reset();

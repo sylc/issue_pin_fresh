@@ -10,8 +10,14 @@ declare global {
   var URLPattern: any;
 }
 
-export * from "https://raw.githubusercontent.com/lucacasonato/fresh/6abf62c832ced41ae9365b48939221adfbe74e5d/runtime.ts";
-import { IS_BROWSER } from "https://raw.githubusercontent.com/lucacasonato/fresh/6abf62c832ced41ae9365b48939221adfbe74e5d/runtime.ts";
+
+export * from "https://raw.githubusercontent.com/lucacasonato/fresh/main/runtime.ts";
+import { IS_BROWSER } from "https://raw.githubusercontent.com/lucacasonato/fresh/main/runtime.ts";
+
+// comment above and uncomment below
+// export * from "https://raw.githubusercontent.com/lucacasonato/fresh/6abf62c832ced41ae9365b48939221adfbe74e5d/runtime.ts";
+// import { IS_BROWSER } from "https://raw.githubusercontent.com/lucacasonato/fresh/6abf62c832ced41ae9365b48939221adfbe74e5d/runtime.ts";
+
 import { setup, tw } from "https://esm.sh/twind";
 export { setup, tw };
 if (IS_BROWSER) {
